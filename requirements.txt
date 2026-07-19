@@ -1,0 +1,10 @@
+flask
+flask-sqlalchemy
+flask-migrate
+flask-jwt-extended
+flask-marshmallow
+python-dotenv
+pytest
+email-validator
+
+
