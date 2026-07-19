@@ -2,7 +2,7 @@ from datetime import datetime
 from werkzeug.security import generate_password_hash,check_password_hash
 from app.extensions import db
 
-class User:
+class User(db.Model):
     __tablename__="users"
 
     id=db.Column(db.Integer,primary_key=True)
